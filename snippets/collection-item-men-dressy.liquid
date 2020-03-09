@@ -1,0 +1,128 @@
+{%- assign collection_image = block.settings.image | default: collection.image | default: collection.products.first.featured_image -%}
+
+<div {{ block.shopify_attributes }} class="pt-0 px-lg-0 px-3 CollectionItem {% if section.settings.expand_collection %}CollectionItem--expand{% endif %} {% if template == 'index' %}Carousel__Cell {% if forloop.first %}is-selected{% endif %}{% endif %}" data-slide-index="{{ forloop.index0 }}">
+  {%- capture mobile_size -%}750x{% if collection_image.height >= 960 %}960{% else %}{{ collection_image.height }}{% endif %}{%- endcapture -%}
+  {%- assign image_crop = block.settings.image_alignment | split: ' ' | last -%}
+<div class="row mobile_men_{{ collection.title | downcase | replace: " ", "_" }} desktop_men_{{ collection.title | downcase | replace: " ", "_" }}">
+  
+    <div class="collection-group w-100" style="background-size: cover; min-height: 666px; background-repeat: no-repeat; background-position: center; background-image: url('{{collection.image | img_url: '1500x' }}')">
+      <div class="opacity-holder w-100 h-100 d-flex align-items-center justify-content-lg-end justify-content-center">
+        <div class="text-holder d-lg-block d-none col-lg-4 col-12 pr-lg-5">
+          
+          <h2 class="m-0 SectionHeader__Heading text-uppercase u-h1 text-lg-center text-left py-5 Heading mr-auto" style="text-transform: uppercase;color:white!important">{{ collection.title }}</h2>
+          <p class="pb-5 text-left mr-auto" style="color:white!important">
+            {{ collection.description }}
+          </p>
+          
+        </div>
+      </div>
+    </div>
+    
+    <div class="text-holder d-lg-none d-block">
+          
+      <h2 class="col-lg-7 col-12 m-0 SectionHeader__Heading text-uppercase u-h1 text-lg-center text-left py-5 Heading ml-auto" style="text-transform: uppercase;color:black!important">{{ collection.title }}</h2>
+      <p class="col-lg-7 col-12 pb-5 text-left ml-auto" style="color:black!important">
+        <span>{{ collection.description }}</span>
+      </p>
+
+    </div>
+    
+    <div class="products d-flex flex-row w-100">
+      <div class="ProductListWrapper w-100 mb-5 py-lg-5 py-0">
+        
+        <div class="ProductList ProductList--grid ProductList--removeMargin Grid w-100 text-center">
+           {%- for product in collection.products -%}
+        	<div class="Grid__Cell 1/2--phone 1/2--tablet 1/4--lap-and-up">
+                  <div class="ProductItem" style="visibility: inherit; opacity: 1; transform: matrix(1, 0, 0, 1, 0, 0);">
+                       <div class="ProductItem__Wrapper">
+                         
+                                {%- if settings.product_image_size == 'natural' or use_horizontal -%}
+                                {%- assign use_natural_size = true -%}
+                                {%- else -%}
+                                  {%- assign use_natural_size = false -%}
+                                {%- endif -%}
+
+                                {%- if settings.product_show_secondary_image and product.images[1] != blank and use_horizontal != true -%}
+                                  {%- assign has_alternate_image = true -%}
+                                {%- else -%}
+                                  {%- assign has_alternate_image = false -%}
+                                {%- endif -%}
+
+                                <a href="{{ product.url | within: collection }}" class="ProductItem__ImageWrapper {% if has_alternate_image %}ProductItem__ImageWrapper--withAlternateImage{% endif %}">
+                                  {%- if use_horizontal -%}
+                                    {%- assign max_width = 125 -%}
+                                  {%- else -%}
+                                    {%- assign max_width = product.featured_image.width -%}
+                                  {%- endif -%}
+
+                                  <div class="AspectRatio AspectRatio--{% if use_natural_size %}withFallback{% else %}{{ settings.product_image_size }}{% endif %}" style="max-width: {{ max_width }}px; {% if use_natural_size %}padding-bottom: {{ 100.0 | divided_by: product.featured_image.aspect_ratio }}%;{% endif %} --aspect-ratio: {{ product.featured_image.aspect_ratio }}">
+                                    {%- comment -%}
+                                    IMPLEMENTATION NOTE: The alternate image (not visible by default) should be the first in the DOM, as the spinner (Image__Loader element) is
+                                    displayed based on the immediately previously shown image.
+                                    {%- endcomment -%}
+
+                                    {%- if has_alternate_image -%}
+                                      {%- capture supported_sizes -%}{%- render 'image-size', sizes: '200,300,400,600,800,900,1000,1200', image: product.images[1] -%}{%- endcapture -%}
+
+                                      {%- assign image_url = product.images[1] | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+
+                                      <img class="ProductItem__Image ProductItem__Image--alternate Image--lazyLoad Image--fadeIn" data-src="{{ image_url }}" data-widths="[{{ supported_sizes }}]" data-sizes="auto" alt="{{ product.images[1].alt | escape }}" data-image-id="{{ product.images[1].id }}">
+                                    {%- endif -%}
+
+                                    {%- capture supported_sizes -%}{%- render 'image-size', sizes: '200,400,600,700,800,900,1000,1200', image: product.featured_image -%}{%- endcapture -%}
+                                    {%- assign image_url = product.featured_image | img_url: '1x1' | replace: '_1x1.', '_{width}x.' -%}
+
+                                    <img class="ProductItem__Image Image--lazyLoad Image--fadeIn" data-src="{{ image_url }}" data-widths="[{{ supported_sizes }}]" data-sizes="auto" alt="{{ product.featured_image.alt | escape }}" data-image-id="{{ product.featured_image.id }}">
+                                    <span class="Image__Loader"></span>
+
+                                    <noscript>
+                                      <img class="ProductItem__Image ProductItem__Image--alternate" src="{{ product.images[1] | img_url: '600x' }}" alt="{{ product.images[1].alt | escape }}">
+                                      <img class="ProductItem__Image" src="{{ product.featured_image | img_url: '600x' }}" alt="{{ product.featured_image.alt | escape }}">
+                                    </noscript>
+                                  </div>
+                                </a>
+                         
+                            <div class="ProductItem__Info ProductItem__Info--center">
+                                <h2 class="ProductItem__Title Heading">
+                                  <a class="text-dark" href="{{ product.url }}">{{ product.title }}</a>
+                                </h2>
+                              
+                               {%- if show_price_on_hover == nil -%}
+                                {%- assign show_price_on_hover = settings.product_show_price_on_hover -%}
+                                {%- endif -%}
+
+                                {%- if show_price_on_hover and color_swatch_list != blank -%}
+                                  {{- color_swatch_list -}}
+                                {%- endif -%}
+
+                                {%- if product.template_suffix != 'coming-soon' -%}
+                                  <div class="ProductItem__PriceList {% if show_price_on_hover %}ProductItem__PriceList--showOnHover{% endif %} Heading">
+                                    {%- if product.compare_at_price > product.price -%}
+                                      <span class="ProductItem__Price Price Price--highlight Text--subdued" data-money-convertible>{{ product.price | money_without_trailing_zeros }}</span>
+                                      <span class="ProductItem__Price Price Price--compareAt Text--subdued" data-money-convertible>{{ product.compare_at_price | money_without_trailing_zeros }}</span>
+                                    {%- elsif product.price_varies -%}
+                                      {%- capture formatted_min_price -%}<span data-money-convertible>{{ product.price_min | money_without_trailing_zeros }}</span>{%- endcapture -%}
+                                      {%- capture formatted_max_price -%}<span data-money-convertible>{{ product.price_max | money_without_trailing_zeros }}</span>{%- endcapture -%}
+                                      <span class="ProductItem__Price Price Text--subdued">{{ 'collection.product.from_price_html' | t: min_price: formatted_min_price, max_price: formatted_max_price }}</span>
+                                    {%- else -%}
+                                      <span class="ProductItem__Price Price Text--subdued" data-money-convertible>{{ product.price | money_without_trailing_zeros }}</span>
+                                    {%- endif -%}
+                                  </div>
+                                {%- endif -%}
+
+                                {%- if show_price_on_hover == false and color_swatch_list != blank -%}
+                                  {{- color_swatch_list -}}
+                                {%- endif -%}
+                           </div>
+                         
+                      </div>
+                  </div>
+              </div>
+            {% endfor %}
+      </div>
+        
+      </div>
+  	</div>
+
+</div>
+</div>

@@ -1,0 +1,34 @@
+<div class="about">
+  <div class="container py-lg-5 py-5">
+    <div class="row d-flex flex-lg-row flex-column py-lg-5 py-0 my-lg-5 my-0">
+      <div class="col-lg-6 cb-col-12 left-side">
+        <p class="mb-5">
+           {{ section.settings.section }}
+        </p>
+        <a class="Link Link--underline" href="/pages/story">
+        	LEARN MORE
+        </a>
+      </div>
+      <div class="col-sm right-side">
+      
+      </div>
+    </div>
+  </div>  
+</div>
+
+
+{% schema %}
+
+{
+  "name": "about",
+  "settings": [
+    {
+      "type": "text",
+      "id": "section",
+      "label": "Heading",
+      "default": "Based in SoHo, New York, our style is inspired by the concrete jungle. Like the city that shaped us, our belts possess a distinct combination of sophistication and boldness. Each is crafted from premium leather and punctuated with our trademarked tip."
+    }
+  ]
+}
+
+{% endschema %}

@@ -1,0 +1,244 @@
+<div class="Container contact-page-wrapper py-5">
+<!--   <header class="PageHeader my-0 col-lg-10 col-12 mx-auto">
+    <div class="SectionHeader SectionHeader--center Container Grid__Cell 1--phone 1--tablet 1/3--lap-and-up">
+      <h1 class="SectionHeader__Heading Heading u-h1 d-flex justify-content-start mb-0">{{ page.title }}</h1>
+      <div class="d-flex flex-row my-2">                             
+        <div class="col-2 px-0">
+            <hr class="text-dark text-after"> 
+         </div>
+         <div class="col-1">
+            <hr class="text-after">
+         </div>
+
+       </div>
+    </div>
+  </header> -->
+
+  <div class="Container d-flex flex-lg-row flex-column justify-content-center col-lg-9 col-12 mx-auto my-lg-5 my-0 py-lg-5 py-5 px-lg-3 px-0">
+    
+    <div class="contact-holder col-lg-6 col-12 pr-lg-5 pr-0 pl-0">
+    
+     <div class="Rte">
+     
+       
+      <h1 class="SectionHeader__Heading Heading u-h1 d-flex justify-content-start mb-0">{{ page.title }}</h1>
+      <div class="d-flex flex-row my-2">                             
+        <div class="col-2 px-0">
+            <hr class="text-dark text-after"> 
+         </div>
+         <div class="col-1">
+            <hr class="text-after">
+         </div>
+
+       </div>
+       
+       {{- page.content -}}
+       
+      {%- form 'contact', class: 'Form Form--spacingTight' -%}
+        {%- if form.posted_successfully? -%}
+          <p class="Alert Alert--success">{{ 'contact.form.successfully_sent' | t }}</p>
+        {%- endif -%}
+
+        {%- if form.errors -%}
+          <div class="Form__Alert Alert Alert--error">
+            <ul class="Alert__ErrorList">
+              {%- for field in form.errors -%}
+                {%- if field == 'form' -%}
+                  <li class="Alert__ErrorItem">{{ form.errors.messages[field] }}</li>
+                {%- else -%}
+                  <li class="Alert__ErrorItem"><strong>{{ form.errors.translated_fields[field] }}</strong> {{ form.errors.messages[field] }}</li>
+                {%- endif -%}
+              {%- endfor -%}
+            </ul>
+          </div>
+        {%- endif -%}
+
+        <div class="Form__Group">
+          <div class="Form__Item">
+            <input type="text" class="Form__Input" name="contact[name]" aria-label="{{ 'contact.form.name' | t }}" placeholder="{{ 'contact.form.name' | t }}" required {% if customer %}value="{{ customer.name }}"{% endif %}>
+            <label class="Form__FloatingLabel">{{ 'contact.form.name' | t }}</label>
+          </div>
+
+          <div class="Form__Item">
+            <input type="email" class="Form__Input" name="contact[email]" aria-label="{{ 'contact.form.email' | t }}" placeholder="{{ 'contact.form.email' | t }}" required {% if customer %}value="{{ customer.email }}"{% endif %}>
+            <label class="Form__FloatingLabel">{{ 'contact.form.email' | t }}</label>
+          </div>
+        </div>
+
+        {%- for block in section.blocks -%}
+          {%- assign field_title = block.settings.title -%}
+
+          {%- if field_title == blank -%}
+            {%- capture field_title -%}Custom field {% increment custom_field %}{%- endcapture -%}
+          {%- endif -%}
+
+          {%- if block.type == 'text' -%}
+            <div class="Form__Item">
+              {%- if block.settings.use_long_text -%}
+                <textarea name="contact[{{ field_title | escape }}]" cols="30" rows="10" class="Form__Textarea" aria-label="{{ block.settings.title | escape }}" placeholder="{{ block.settings.title | escape }}" {% if block.settings.is_required %}required{% endif %}></textarea>
+                <label class="Form__FloatingLabel">{{ block.settings.title | escape }}</label>
+              {%- else -%}
+                <input type="text" class="Form__Input" name="contact[{{ field_title | escape }}]" aria-label="{{ block.settings.title | escape }}" placeholder="{{ block.settings.title | escape }}" {% if block.settings.is_required %}required{% endif %}>
+                <label class="Form__FloatingLabel">{{ block.settings.title | escape }}</label>
+              {%- endif -%}
+            </div>
+          {%- elsif block.type == 'dropdown' -%}
+            {%- assign values = block.settings.values | split: ',' -%}
+
+            {%- if values == empty -%}
+              {%- continue -%}
+            {%- endif -%}
+
+            <div class="Form__Item">
+              <div class="Form__Select Select Select--primary">
+                {%- render 'icon' with 'select-arrow' -%}
+
+                <select name="contact[{{ field_title | escape }}]" title="{{ block.settings.title | escape }}" required>
+                  <option value="" disabled selected>{{ block.settings.title | escape }}</option>
+
+                  {%- for value in values -%}
+                    {%- assign trim_value = value | strip -%}
+
+                    <option value="{{ trim_value | escape }}">{{ trim_value | escape }}</option>
+                  {%- endfor -%}
+                </select>
+              </div>
+            </div>
+          {%- endif -%}
+        {%- endfor -%}
+
+        <div class="Form__Item">
+          <textarea name="contact[body]" cols="30" rows="10" class="Form__Textarea" aria-label="{{ 'contact.form.message' | t }}" placeholder="{{ 'contact.form.message' | t }}" required></textarea>
+          <label class="Form__FloatingLabel">{{ 'contact.form.message' | t }}</label>
+        </div>
+
+        <button type="submit" class="Form__Submit Button Button--primary Button--full">{{ 'contact.form.submit' | t }}</button>
+      {%- endform -%}
+    </div>
+    
+    
+    </div> 
+    
+    
+    
+   <div class="contact-info col-lg-6 col-12 pl-lg-5 pl-0">
+    <ul class="Linklist Block--links">
+      
+      <li class="mb-5">
+      	<h7 class="Heading">
+          email
+        </h7>
+        <br>
+        <a href="mailto:info@badichibelts.com" class="mb-5"><span class="">info@badichibelts.com</span></a>
+      </li>
+      <li class="mb-5">
+        <h7 class="Heading">
+            phone
+        </h7>
+        <br>
+        <a href="tel:212-533-2107" class=""><span class="mb-5">212-533-2107</span></a>
+      </li>
+       <li class="mb-5">
+          <h7 class="Heading">
+              Location
+          </h7>
+           <br>
+          <p>
+            367 West Broadway,New York, NY 10013
+          </p>
+      </li> 
+       <li class="mb-5">
+          <h7 class="Heading">
+              Opening hours
+          </h7>
+           <br>
+          <p>
+            Open daily 11am - 7pm
+          </p>
+          <p>
+            *hours may change on holidays
+          </p>
+      </li>
+      <li>
+        <h7 class="Heading">
+            follow us
+        </h7>
+        <br>
+        {% render 'social-media' %}
+      </li>
+      
+    </ul>
+  </div>
+    
+    
+    
+    
+    
+    
+  </div>
+ 
+  
+  
+</div>
+
+{% schema %}
+{
+  "name": "Contact page",
+  "settings": [],
+  "blocks": [
+    {
+      "type": "text",
+      "name": "Text field",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Name",
+          "default": "Custom field"
+        },
+        {
+          "type": "checkbox",
+          "id": "use_long_text",
+          "label": "Use long text",
+          "default": false
+        },
+        {
+          "type": "checkbox",
+          "id": "is_required",
+          "label": "Field is required",
+          "default": false
+        }
+      ]
+    },
+    {
+      "type": "dropdown",
+      "name": "Dropdown",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Name",
+          "default": "Custom field"
+        },
+        {
+          "type": "text",
+          "id": "values",
+          "label": "Values",
+          "info": "Separate each value by a comma.",
+          "default": "value 1, value 2, value 3"
+        }
+      ]
+    }
+  ],
+  "default": {
+    "blocks": [
+      {
+        "type": "text",
+        "settings": {
+          "title": "Your phone (optional)"
+        }
+      }
+    ]
+  }
+}
+{% endschema %}

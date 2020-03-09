@@ -1,0 +1,199 @@
+
+
+{%- capture flickity_options -%}
+{
+  "prevNextButtons": true,
+  "pageDots": false,
+  "wrapAround": false,
+  "contain": true,
+  "cellAlign": "center",
+  "watchCSS": true,
+  "dragThreshold": 8,
+  "groupCells": true,
+  "arrowShape": {"x0": 20, "x1": 60, "y1": 40, "x2": 60, "y2": 35, "x3": 25}
+}
+{%- endcapture -%}
+
+
+<div class="page-inspired pb-2 pb-sm-5">
+  
+  <div class="section-one py-0 d-flex align-items-center justify-content-center">
+    <div class="w-100">
+        <div class="background-holder d-flex flex-column align-items-center justify-content-center">
+
+          <div class="d-flex flex-lg-row flex-column justify-content-end">
+            <div class="left-side col-lg-5 col-12 mb-lg-0 mb-5">
+              <div class="text-holder my-5 py-5 col-lg-6 col-11 px-lg-0 px-3">
+                <h3 class="SectionHeader__SubHeading Heading u-h6">
+                  {{ section.settings.hero_title }}
+                </h3>
+                <h2 class="SectionHeader__Heading Section Header__Heading--emphasize Heading u-h1">
+                  {{ section.settings.hero_desc }}
+                </h2>
+              </div>
+              <div class="image-holder mt-lg-5 mt-0 pt-lg-5 pt-0">
+                <a href="/pages/men">
+                  <img src="{{ section.settings.image1 | img_url: '630x654' }}">
+                </a>
+              </div>
+            </div>
+            <div class="right-side col-lg-5 col-12">
+              <a href="/pages/men">
+                <img class="w-100" src="{{ section.settings.image2 | img_url: '630x763' }}">
+              </a>
+            </div>
+          </div>
+          
+          <div class="d-flex flex-lg-row flex-column my-5 py-5 col-12">
+            <h2 class="SectionHeader__Heading Section Header__Heading--emphasize Heading u-h1 text-center">
+               {{ section.settings.hero_sub_title }}
+            </h2>
+            <p class="text-center col-lg-5 col-12 p-0 mx-auto">
+               {{ section.settings.hero_sub_desc }}  
+            </p>
+          </div>
+
+    	</div>
+  	</div>
+  </div>
+  
+  <section class="Section Section--spacingNormal py-lg-5 py-0 my-5 inspiration">
+  {% for collection in collections %}
+  {% if collection.handle == section.settings.feature_collection %}
+    
+    <div class="d-flex flex-lg-row flex-column mb-5 py-5 col-12">
+      <h4 class="text-center"> {{ collection.title }} </h4>
+      <p class="text-center col-lg-5 col-12 p-0 mx-auto">
+          {{ collection.description }}
+      </p>
+    </div>
+
+    <div class="ProductList ProductList--grid ProductList--removeMargin Grid">
+      {%- for product in collection.products limit: 20 -%}
+        <div class="Grid__Cell 1/2--phone 1/2--tablet 1/4--lap-and-up">
+          {%- render 'product-item', product: product, show_product_info: true -%}
+        </div>
+      {%- endfor -%}
+    </div>
+
+  {% endif %}
+  {% endfor %}
+  </section>
+
+  
+  <div class="section-three py-0 d-flex align-items-center justify-content-center mb-5">
+    <div class="w-100">
+      <div class="d-flex flex-column align-items-center justify-content-center">
+        
+        
+        <div class="d-flex flex-lg-row flex-column justify-content-between w-100">
+          <div class="image-holder px-4">
+            <a href="/pages/men">
+                <img src="{{ section.settings.image3 | img_url: '606x880' }}">
+              </a>
+          </div>
+           <div class="image-holder px-lg-4 px-4 py-lg-0 py-5">
+             <a href="/pages/men">
+          	<img src="{{ section.settings.image4 | img_url: '606x880' }}">
+               </a>
+          </div> 
+          <div class="image-holder px-4">
+            <a href="/pages/men">
+          	<img src="{{ section.settings.image5 | img_url: '606x880' }}">
+              </a>
+          </div>
+        </div>
+          
+      </div>
+    </div>
+  </div>
+  
+</div>
+
+
+{% schema %}
+{
+  "name": "Inspiration Men Page",
+  "settings": [
+    {
+      "type": "paragraph",
+      "content": "Put all of the images links below"
+    },
+	{
+        "type": "text",
+        "id": "hero_title",
+        "label": "Hero Title",
+        "default": "GET INSPIRED"
+    },
+	{
+        "type": "textarea",
+        "id": "hero_desc",
+        "label": "Hero Description",
+        "default": "WHAT'S HOLDING YOUR STYLE TOGETHER ?"
+    },
+	{
+      "type": "image_picker",
+      "id": "image1",
+      "label": "Hero Image 1"
+    },
+	{
+      "type": "image_picker",
+      "id": "image2",
+      "label": "Hero Image 2"
+    },
+
+	{
+        "type": "text",
+        "id": "hero_sub_title",
+        "label": "Hero Sub Title",
+        "default": "LOREM IPSUM DOLOR SIT AMET"
+    },
+	{
+        "type": "textarea",
+        "id": "hero_sub_desc",
+        "label": "Hero Sub Description",
+        "default": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut"
+    },
+
+	{
+      "type": "image_picker",
+      "id": "image3",
+      "label": "Row Image 1"
+    },
+	{
+      "type": "image_picker",
+      "id": "image4",
+      "label": "Row Image 1"
+    },
+	{
+      "type": "image_picker",
+      "id": "image5",
+      "label": "Row Image 1"
+    },
+	{
+      "type": "collection",
+      "id": "feature_collection",
+      "label": "Feature collection",
+      "info":      "It will be presented on this page."
+    }
+
+  ],
+  "blocks": [
+    {
+      "type": "collection",
+      "name": "Collection",
+      "settings": []
+    }
+  ]
+}
+{% endschema %}
+
+
+{% stylesheet %}
+.js section.inspiration .ProductList--grid .ProductItem {
+  visibility: visible !important;
+}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

@@ -1,0 +1,2420 @@
+{
+  "current": {
+    "heading_color": "#1c1b1b",
+    "text_color": "#1c1b1b",
+    "text_light_color": "#6a6a6a",
+    "link_color": "#6a6a6a",
+    "background": "#efefef",
+    "light_background": "#ffffff",
+    "product_on_sale_color": "#f94c43",
+    "button_background": "#1c1b1b",
+    "button_text_color": "#ffffff",
+    "header_background": "#ffffff",
+    "header_heading_color": "#1c1b1b",
+    "header_light_color": "#6a6a6a",
+    "footer_background": "#ffffff",
+    "footer_heading_color": "#1c1b1b",
+    "footer_text_color": "#6a6a6a",
+    "navigation_background": "#1c1b1b",
+    "navigation_text_color": "#ffffff",
+    "newsletter_popup_background": "#1c1b1b",
+    "newsletter_popup_text_color": "#ffffff",
+    "secondary_elements_background": "#1c1b1b",
+    "secondary_elements_text_color": "#ffffff",
+    "heading_font": "poppins_n4",
+    "heading_size": "normal",
+    "uppercase_heading": true,
+    "text_font": "muli_n4",
+    "base_text_font_size": 16,
+    "currency_conversion_enabled": false,
+    "currency_conversion_round_amounts": true,
+    "currency_conversion_supported_currencies": "USD CAD EUR GBP",
+    "currency_conversion_money_format": "money_format",
+    "show_page_transition": true,
+    "show_button_transition": true,
+    "show_image_zooming": true,
+    "show_element_staggering": true,
+    "search_mode": "product,article,page",
+    "show-warning": true,
+    "warning-message": "<p>Plesae Enable JavaScript<\/p>",
+    "product_show_price_on_hover": false,
+    "product_show_secondary_image": true,
+    "product_info_alignment": "center",
+    "product_image_size": "natural",
+    "product_list_horizontal_spacing": "medium",
+    "product_list_vertical_spacing": "small",
+    "cart_type": "page",
+    "cart_enable_notes": true,
+    "cart_show_free_shipping_threshold": false,
+    "cart_free_shipping_threshold": "50",
+    "share_image": "",
+    "social_facebook": "https:\/\/www.facebook.com\/BadichiNYC\/",
+    "social_twitter": "",
+    "social_pinterest": "https:\/\/www.pinterest.com\/badichinyc\/",
+    "social_instagram": "https:\/\/www.instagram.com\/badichinyc\/",
+    "social_vimeo": "",
+    "social_tumblr": "",
+    "social_youtube": "",
+    "social_linkedin": "",
+    "social_snapchat": "",
+    "social_fancy": "",
+    "favicon": "",
+    "checkout_header_image": "",
+    "checkout_logo_image": "",
+    "checkout_logo_position": "center",
+    "checkout_logo_size": "small",
+    "checkout_body_background_image": "",
+    "checkout_body_background_color": "#ffffff",
+    "checkout_input_background_color_mode": "white",
+    "checkout_sidebar_background_image": "",
+    "checkout_sidebar_background_color": "#efefef",
+    "checkout_heading_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "checkout_body_font": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
+    "checkout_accent_color": "#1c1b1b",
+    "checkout_button_color": "#1c1b1b",
+    "checkout_error_color": "#e32c2b",
+    "sections": {
+      "sidebar-menu": {
+        "type": "sidebar-menu",
+        "settings": {
+          "primary_menu": "main-menu",
+          "secondary_menu": "",
+          "show_social_media": true
+        }
+      },
+      "announcement": {
+        "type": "announcement",
+        "settings": {
+          "enable_bar": true,
+          "home_page_only": false,
+          "background": "#eeedf3",
+          "text_color": "#000000",
+          "content": "Free US shipping & international flat rate $25",
+          "link": ""
+        }
+      },
+      "header": {
+        "type": "header",
+        "settings": {
+          "use_sticky_header": true,
+          "logo": "",
+          "logo_max_width": 180,
+          "mobile_logo_max_width": 120,
+          "navigation_menu": "main-menu",
+          "navigation_style": "inline",
+          "show_icons": true,
+          "enable_transparent_header": false,
+          "enable_transparent_header_collection": false,
+          "show_transparent_header_border": true,
+          "transparent_text_color": "#000000",
+          "transparent_logo": ""
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "footer-0": {
+            "type": "text",
+            "settings": {
+              "title": "About Us",
+              "content": "<p>Our designs are made from 100% genuine leather that is durable and treated to age beautifully. Each belt develops a patina over time that makes it perfectly imperfect and uniquely yours.<\/p>",
+              "show_social_media": true
+            }
+          },
+          "footer-1": {
+            "type": "links",
+            "settings": {
+              "menu": "footer"
+            }
+          },
+          "1572348064576": {
+            "type": "links",
+            "settings": {
+              "menu": "navpages"
+            }
+          },
+          "1574006158269": {
+            "type": "links",
+            "settings": {
+              "menu": "help"
+            }
+          },
+          "footer-2": {
+            "type": "newsletter",
+            "settings": {
+              "title": "Newsletter",
+              "content": "<p>Subscribe to our newsletter to receive exclusive offers &amp; discounts<\/p>"
+            }
+          }
+        },
+        "block_order": [
+          "footer-0",
+          "footer-1",
+          "1572348064576",
+          "1574006158269",
+          "footer-2"
+        ],
+        "settings": {
+          "show_payment_methods": true
+        }
+      },
+      "slideshow": {
+        "type": "slideshow",
+        "blocks": {
+          "slide-0": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/Belt2.jpg",
+              "mobile_image": "",
+              "apply_overlay": true,
+              "content_position": "bottomLeft",
+              "subheading": "LUXURY CUSTOM LEATHER BELTS",
+              "title": "REDEFINING BELT DESIGN WITH #JUSTTHETIPS.",
+              "button_1_text": "SHOP MEN",
+              "button_1_link": "shopify:\/\/pages\/men",
+              "button_2_text": "SHOP WOMEN",
+              "button_2_link": "shopify:\/\/pages\/women"
+            }
+          },
+          "1573475784139": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/39A8400_1.jpg",
+              "mobile_image": "",
+              "apply_overlay": true,
+              "content_position": "bottomRight",
+              "subheading": "The Mogul",
+              "title": "Boldly accents every outfit with an eye-catching metallic or patent leather tip.",
+              "button_1_text": "SHOP NOW",
+              "button_1_link": "shopify:\/\/pages\/women",
+              "button_2_text": "",
+              "button_2_link": ""
+            }
+          },
+          "1573476216386": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/39A9696_1.jpg",
+              "mobile_image": "",
+              "apply_overlay": true,
+              "content_position": "bottomRight",
+              "subheading": "INTRODUCING THE FIRST CLASS",
+              "title": "Gives new meaning to the classic leather belt with its exposed stitching.",
+              "button_1_text": "SHOP NOW",
+              "button_1_link": "shopify:\/\/pages\/men",
+              "button_2_text": "",
+              "button_2_link": ""
+            }
+          },
+          "1573476473558": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/39A7980_1.jpg",
+              "mobile_image": "",
+              "apply_overlay": true,
+              "content_position": "bottomRight",
+              "subheading": "THE BICOASTAL",
+              "title": "Defining elegance with two of the finest quality Italian leathers in one belt.",
+              "button_1_text": "SHOP NOW",
+              "button_1_link": "shopify:\/\/pages\/women",
+              "button_2_text": "",
+              "button_2_link": ""
+            }
+          }
+        },
+        "block_order": [
+          "slide-0",
+          "1573475784139",
+          "1573476216386",
+          "1573476473558"
+        ],
+        "settings": {
+          "show_fullscreen": true,
+          "show_arrow": false,
+          "autoplay": false,
+          "cycle_speed": 5,
+          "text_color": "#000000",
+          "button_color": "#000000",
+          "button_background": "#ffffff"
+        }
+      },
+      "featured-collections": {
+        "type": "featured-collections",
+        "blocks": {
+          "1573479654911": {
+            "type": "collection",
+            "settings": {
+              "collection": "best-sellers-men",
+              "title": "...........men",
+              "grid_items_count": 8,
+              "button_text": "View all products"
+            }
+          },
+          "1573718457610": {
+            "type": "collection",
+            "settings": {
+              "collection": "best-sellers-women",
+              "title": "...........women",
+              "grid_items_count": 8,
+              "button_text": "View all products"
+            }
+          }
+        },
+        "block_order": [
+          "1573479654911",
+          "1573718457610"
+        ],
+        "settings": {
+          "title": "BEST SELLER LEATHER BELTS FOR MEN AND WOMEN",
+          "layout_mode": "grid",
+          "show_product_info": true,
+          "show_vendor": false,
+          "show_color_swatch": false,
+          "grid_mobile_items_per_row": "2",
+          "grid_desktop_items_per_row": 4
+        }
+      },
+      "collection-template": {
+        "type": "collection-template",
+        "settings": {
+          "show_collection_info": true,
+          "show_collection_image": true,
+          "apply_overlay": true,
+          "show_color_swatch": true,
+          "show_vendor": false,
+          "collection_image_size": "normal",
+          "show_sort_by": true,
+          "show_layout_switch": false,
+          "toolbar_position": "bottom",
+          "filter_position": "sidebar",
+          "filter_mode": "tag",
+          "show_filter_color_swatch": true,
+          "filter_menu": "",
+          "grid_items_per_page": 48,
+          "grid_mobile_items_per_row": "2",
+          "grid_desktop_items_per_row": 4
+        }
+      },
+      "recently-viewed-products": {
+        "type": "recently-viewed-products",
+        "settings": {
+          "show_section": true,
+          "title": "Recently viewed",
+          "show_product_info": true,
+          "show_vendor": false,
+          "show_color_swatch": false
+        }
+      },
+      "collection-footer": {
+        "type": "collection-footer",
+        "settings": {
+          "show_section": false,
+          "image": "",
+          "text_color": "#ffffff",
+          "apply_overlay": true,
+          "title": "Our story",
+          "content": "<p>Add your own custom content to explain your processes...<\/p>"
+        }
+      },
+      "product-template": {
+        "type": "product-template",
+        "settings": {
+          "show_share_buttons": false,
+          "show_vendor": false,
+          "show_sku": false,
+          "description_below_add_to_cart": true,
+          "selector_mode": "dropdown",
+          "show_color_swatch": false,
+          "show_color_carousel": false,
+          "show_quantity_selector": false,
+          "show_inventory_quantity": true,
+          "inventory_quantity_threshold": 3,
+          "show_price_in_button": false,
+          "show_payment_button": false,
+          "image_size": "large",
+          "stack_images": true,
+          "show_thumbnails": true,
+          "enable_image_zoom": false,
+          "tab_page_1_handle": "",
+          "tab_page_2_handle": "",
+          "reviews_enabled": true,
+          "featured_image_size": "normal"
+        }
+      },
+      "product-recommendations": {
+        "type": "product-recommendations",
+        "settings": {
+          "show_product_recommendations": true,
+          "heading": "You may also like",
+          "show_product_info": true,
+          "show_vendor": false,
+          "show_color_swatch": false
+        }
+      },
+      "popup": {
+        "type": "popup",
+        "settings": {
+          "show_popup": false,
+          "show_only_on_index": true,
+          "show_only_for_visitors": true,
+          "show_only_once": true,
+          "title": "Badichi",
+          "content": "",
+          "show_newsletter": true,
+          "apparition_delay": 5
+        }
+      },
+      "home_collections_first_section": {
+        "type": "home_collections_first_section",
+        "settings": {}
+      },
+      "about_us": {
+        "type": "about_us",
+        "settings": {
+          "section": "Based in SoHo, New York, our leather belts style is inspired by the concrete jungle. Like the city that shaped us, our customized belts possess a distinct combination of sophistication and boldness. Each leather belt is handcrafted from premium leather and punctuated with our trademarked custom tip."
+        }
+      },
+      "page-contact-template": {
+        "type": "page-contact-template",
+        "blocks": {
+          "page-contact-template-0": {
+            "type": "text",
+            "settings": {
+              "title": "Your phone (optional)",
+              "use_long_text": false,
+              "is_required": false
+            }
+          }
+        },
+        "block_order": [
+          "page-contact-template-0"
+        ],
+        "settings": {}
+      },
+      "list-collections-template": {
+        "type": "list-collections-template",
+        "settings": {
+          "collections_to_show": "all",
+          "image_size": "normal",
+          "add_spacing": true,
+          "expand_collection": false,
+          "apply_overlay": true,
+          "text_color": "#ffffff",
+          "button_color": "#363636"
+        }
+      },
+      "visit_us": {
+        "type": "visit_us",
+        "settings": {}
+      },
+      "instagram-feed": {
+        "type": "instagram-feed",
+        "settings": {
+          "subheading": "@badichinyc",
+          "title": "Follow Badichi Belts",
+          "access_token": "331026371.6a7999e.d5919e5332f9422ea5d97eaaeb875660",
+          "image_count": 10,
+          "button_text": "",
+          "button_url": ""
+        }
+      },
+      "collection-list": {
+        "type": "collection-list",
+        "blocks": {
+          "1573128142152": {
+            "type": "collection",
+            "settings": {
+              "collection": "men-dressy",
+              "image": "",
+              "image_alignment": "center center",
+              "content_position": "bottomLeft",
+              "subheading": "Sub-heading",
+              "title": "Collection name",
+              "button_text": "View products",
+              "button_link": "",
+              "apply_overlay": true
+            }
+          }
+        },
+        "block_order": [
+          "1573128142152"
+        ],
+        "settings": {
+          "image_size": "normal",
+          "add_spacing": true,
+          "expand_collection": false,
+          "stack_on_mobile": true,
+          "text_color": "#ffffff",
+          "button_color": "#363636"
+        }
+      },
+      "featured-collection-men": {
+        "type": "featured-collection-men",
+        "blocks": {
+          "1573128909862": {
+            "type": "collection",
+            "settings": {
+              "collection": "men-casual",
+              "title": "",
+              "grid_items_count": 4,
+              "button_text": "View all products"
+            }
+          }
+        },
+        "block_order": [
+          "1573128909862"
+        ],
+        "settings": {
+          "title": "",
+          "layout_mode": "grid",
+          "show_product_info": true,
+          "show_vendor": false,
+          "show_color_swatch": false,
+          "grid_mobile_items_per_row": "2",
+          "grid_desktop_items_per_row": 4
+        }
+      },
+      "featured-collection-women": {
+        "type": "featured-collection-women",
+        "blocks": {
+          "1573461118135": {
+            "type": "collection",
+            "settings": {
+              "collection": "women-casual",
+              "title": "",
+              "grid_items_count": 4,
+              "button_text": "View all products"
+            }
+          }
+        },
+        "block_order": [
+          "1573461118135"
+        ],
+        "settings": {
+          "title": "",
+          "layout_mode": "grid",
+          "show_product_info": true,
+          "show_vendor": false,
+          "show_color_swatch": false,
+          "grid_mobile_items_per_row": "2",
+          "grid_desktop_items_per_row": 4
+        }
+      },
+      "unisex-featured-collection": {
+        "type": "unisex-featured-collection",
+        "blocks": {
+          "1573129381602": {
+            "type": "collection",
+            "settings": {
+              "collection": "women-casual",
+              "title": "",
+              "grid_items_count": 8,
+              "button_text": "View all products"
+            }
+          },
+          "1573461075387": {
+            "type": "collection",
+            "settings": {
+              "collection": "men-casual",
+              "title": "",
+              "grid_items_count": 8,
+              "button_text": "View all products"
+            }
+          }
+        },
+        "block_order": [
+          "1573129381602",
+          "1573461075387"
+        ],
+        "settings": {
+          "title": "",
+          "layout_mode": "grid",
+          "show_product_info": true,
+          "show_vendor": false,
+          "show_color_swatch": false,
+          "grid_mobile_items_per_row": "2",
+          "grid_desktop_items_per_row": 4
+        }
+      },
+      "men-collection": {
+        "type": "men-collection",
+        "blocks": {
+          "1573218040762": {
+            "type": "collection",
+            "settings": {
+              "collection": "bicoastal-men",
+              "image": "",
+              "image_alignment": "center center",
+              "content_position": "bottomLeft",
+              "title": "BICOASTAL MEN",
+              "content": "100% Italian cowhide leather belt meets Saffiano leather at just the tip. One of our most popular <a href=\"https:\/\/badichibelts.com\/\">custom leather belts<\/a>."
+            }
+          },
+          "1573138125114": {
+            "type": "collection",
+            "settings": {
+              "collection": "exotica-men",
+              "image": "",
+              "image_alignment": "top center",
+              "content_position": "bottomRight",
+              "title": "EXOTICA MEN",
+              "content": "Punctuate your outfit with the exotic flair of our Exotica designed with an alligator embossed leather tip. One of the best <a href=\"https:\/\/badichibelts.com\/pages\/men-dressy\">mens leather dress belts<\/a> you can buy."
+            }
+          },
+          "1573218091801": {
+            "type": "collection",
+            "settings": {
+              "collection": "east-meets-west-men",
+              "image": "",
+              "image_alignment": "center center",
+              "content_position": "bottomLeft",
+              "title": "EAST MEETS WEST MEN",
+              "content": "A new spin on Western style. Get belted in The East Meets West Belt, designed with luxurious pony hair leather at just the tip."
+            }
+          },
+          "1573138068066": {
+            "type": "collection",
+            "settings": {
+              "collection": "first-class-men",
+              "image": "",
+              "image_alignment": "center center",
+              "content_position": "bottomLeft",
+              "title": "FIRST CLASS MEN",
+              "content": "Rich, sophisticated leather belt with exposed stitching. A new defintion of classic. If you're looking for a <a href=\"https:\/\/badichibelts.com\/pages\/men-casual\">mens casual leather belt<\/a>, you've found the right one."
+            }
+          },
+          "1573138085114": {
+            "type": "collection",
+            "settings": {
+              "collection": "mogul-men",
+              "image": "",
+              "image_alignment": "center center",
+              "content_position": "bottomLeft",
+              "title": "MOGUL MEN",
+              "content": "Boldy accent every outfit with The Mogul designed with an eye-catching metallic or patent leather tip."
+            }
+          },
+          "1574684752439": {
+            "type": "collection",
+            "settings": {
+              "collection": "jet-set-men",
+              "image": "",
+              "image_alignment": "center center",
+              "content_position": "bottomLeft",
+              "title": "JET SET MEN",
+              "content": "Introducing The Jet Set designed with a buttery soft denim tip as comfortably stylish as your favorite pair of denim."
+            }
+          },
+          "1573218078045": {
+            "type": "collection",
+            "settings": {
+              "collection": "double-agent-men",
+              "image": "",
+              "image_alignment": "center center",
+              "content_position": "bottomLeft",
+              "title": "DOUBLE AGENT MEN",
+              "content": "The Double Agent defines classic Italian leather craftmanship at its best."
+            }
+          }
+        },
+        "block_order": [
+          "1573218040762",
+          "1573138125114",
+          "1573218091801",
+          "1573138068066",
+          "1573138085114",
+          "1574684752439",
+          "1573218078045"
+        ],
+        "settings": {
+          "title": "Premium Men's Leather Belts",
+          "collections_to_show": "selected",
+          "image_size": "normal",
+          "add_spacing": true,
+          "expand_collection": false,
+          "apply_overlay": true,
+          "text_color": "#000000",
+          "button_color": "#363636"
+        }
+      },
+      "women-collection": {
+        "type": "women-collection",
+        "blocks": {
+          "1573584787045": {
+            "type": "collection",
+            "settings": {
+              "collection": "bicoastal-women",
+              "image": "",
+              "image_alignment": "center center",
+              "content_position": "bottomLeft",
+              "title": "BICOASTAL WOMEN",
+              "content": "Defining understated elegance with two of the finest quality of Italian leathers in one belt. 100% Italian cowhide belt tipped with a Saffiano leather edge. One of the finest <a href=\"https:\/\/badichibelts.com\/\">custom leather belts<\/a> on the market."
+            }
+          },
+          "1573584832329": {
+            "type": "collection",
+            "settings": {
+              "collection": "exotica-women",
+              "image": "",
+              "image_alignment": "center center",
+              "content_position": "bottomLeft",
+              "title": "EXOTICA WOMEN",
+              "content": "Punctuating every outfit with an exotic flair. Its intricate alligator embossed tip is a detail to be noticed. This makes a great <a href=\"https:\/\/badichibelts.com\/pages\/women-dressy\">womens dress belt<\/a> for going out."
+            }
+          },
+          "1573584665249": {
+            "type": "collection",
+            "settings": {
+              "collection": "east-meets-west-women",
+              "image": "",
+              "image_alignment": "center center",
+              "content_position": "bottomLeft",
+              "title": "EAST MEETS WEST WOMEN",
+              "content": "Our spin on traditional Western style. Get belted in The East Meets West Belt, designed with luxurious pony hair at just the tip."
+            }
+          },
+          "1573584772354": {
+            "type": "collection",
+            "settings": {
+              "collection": "first-class-women",
+              "image": "",
+              "image_alignment": "center center",
+              "content_position": "bottomLeft",
+              "title": "FIRST CLASS WOMEN",
+              "content": "Rich, sophisticated leather with exposed stitching. The First Class Belt gives new meaning to a classic <a href=\"https:\/\/badichibelts.com\/pages\/women-casual\">womens casual belt<\/a>."
+            }
+          },
+          "1573584693990": {
+            "type": "collection",
+            "settings": {
+              "collection": "mogul-women",
+              "image": "",
+              "image_alignment": "center center",
+              "content_position": "bottomLeft",
+              "title": "MOGUL WOMEN",
+              "content": "The belt that boldly accents every outfit. The Mogul is designed with an eye-catching metallic or patent leather tip."
+            }
+          },
+          "1582460526246": {
+            "type": "collection",
+            "settings": {
+              "collection": "the-mogul-skinny",
+              "image": "",
+              "image_alignment": "center center",
+              "content_position": "bottomLeft",
+              "title": "",
+              "content": ""
+            }
+          },
+          "1574683338007": {
+            "type": "collection",
+            "settings": {
+              "collection": "jet-set-women",
+              "image": "",
+              "image_alignment": "center center",
+              "content_position": "bottomLeft",
+              "title": "JET SET WOMEN",
+              "content": "Like slipping into your favorite pair of jeans. Introducing The Jet Set designed with a denim tip that effortlessly works with any look."
+            }
+          },
+          "1573584726013": {
+            "type": "collection",
+            "settings": {
+              "collection": "double-agent-women",
+              "image": "",
+              "image_alignment": "center center",
+              "content_position": "bottomLeft",
+              "title": "DOUBLE AGENT WOMEN",
+              "content": "Simple luxury with a sleek silhouette. Introducing The Double Agent Belt."
+            }
+          }
+        },
+        "block_order": [
+          "1573584787045",
+          "1573584832329",
+          "1573584665249",
+          "1573584772354",
+          "1573584693990",
+          "1582460526246",
+          "1574683338007",
+          "1573584726013"
+        ],
+        "settings": {
+          "title": "Premium Women's Leather Belts",
+          "collections_to_show": "selected",
+          "image_size": "normal",
+          "add_spacing": true,
+          "expand_collection": false,
+          "apply_overlay": true,
+          "text_color": "#ffffff",
+          "button_color": "#363636"
+        }
+      },
+      "men-collection-casual": {
+        "type": "men-collection-casual",
+        "blocks": {
+          "1574687988614": {
+            "type": "collection",
+            "settings": {
+              "collection": "jet-set-men",
+              "image": "",
+              "image_alignment": "center center",
+              "content_position": "bottomLeft",
+              "title": "JET SET MEN",
+              "content": "The <a href=\"https:\/\/badichibelts.com\/\">custom leather belt<\/a> you'll want to live in like your favorite pair of denim jeans. Our casual leather belts are like no other."
+            }
+          },
+          "1574688007925": {
+            "type": "collection",
+            "settings": {
+              "collection": "bicoastal-men",
+              "image": "",
+              "image_alignment": "center center",
+              "content_position": "bottomLeft",
+              "title": "BICOASTAL MEN",
+              "content": "Our #1 best-selling <a href=\"https:\/\/badichibelts.com\/pages\/men\">men's italian leather belt<\/a> designed with premium Saffiano leather tip. Jet Set is one of our best selling casual belts. A great accessory for your wardrobe."
+            }
+          },
+          "1574688017534": {
+            "type": "collection",
+            "settings": {
+              "collection": "first-class-men",
+              "image": "",
+              "image_alignment": "center center",
+              "content_position": "bottomLeft",
+              "title": "FIRST CLASS MEN",
+              "content": "An everyday essential for casual belts. The First Class leather belt is perfected with exposed stitching around its edges."
+            }
+          },
+          "1574688027946": {
+            "type": "collection",
+            "settings": {
+              "collection": "exotica-men",
+              "image": "",
+              "image_alignment": "center center",
+              "content_position": "bottomLeft",
+              "title": "EXOTICA MEN",
+              "content": "The Exotica. Because you've got a statement to make. Do it with an alligator embossed leather tip."
+            }
+          },
+          "1574688046019": {
+            "type": "collection",
+            "settings": {
+              "collection": "east-meets-west-men",
+              "image": "",
+              "image_alignment": "center center",
+              "content_position": "bottomLeft",
+              "title": "EAST MEETS WEST MEN",
+              "content": "When simple doesn't cut it. The East Meets West combines 100% Italian leather with the softest premium pony hair at just the tip."
+            }
+          },
+          "1574688056572": {
+            "type": "collection",
+            "settings": {
+              "collection": "mogul-men",
+              "image": "",
+              "image_alignment": "center center",
+              "content_position": "bottomLeft",
+              "title": "MOGUL MEN",
+              "content": "Designed for the style mogul. Choose your Mogul with a black patent leather, gold metallic or silver metallic tip."
+            }
+          },
+          "1574688068341": {
+            "type": "collection",
+            "settings": {
+              "collection": "double-agent-men",
+              "image": "",
+              "image_alignment": "center center",
+              "content_position": "bottomLeft",
+              "title": "DOUBLE AGENT MEN",
+              "content": "Premium classic leather belt designed to perfection, upholding the highest Italian craftmanship standards."
+            }
+          }
+        },
+        "block_order": [
+          "1574687988614",
+          "1574688007925",
+          "1574688017534",
+          "1574688027946",
+          "1574688046019",
+          "1574688056572",
+          "1574688068341"
+        ],
+        "settings": {
+          "title": "Men's Casual Leather Belts",
+          "collections_to_show": "selected",
+          "image_size": "normal",
+          "add_spacing": true,
+          "expand_collection": false,
+          "apply_overlay": true,
+          "text_color": "#ffffff",
+          "button_color": "#363636"
+        }
+      },
+      "men-collection-dressy": {
+        "type": "men-collection-dressy",
+        "blocks": {
+          "1574687836302": {
+            "type": "collection",
+            "settings": {
+              "collection": "mogul-men",
+              "image": "",
+              "image_alignment": "center center",
+              "content_position": "bottomLeft",
+              "title": "MOGUL MEN",
+              "content": "<a href=\"https:\/\/badichibelts.com\/\">Handmade leather belts<\/a>like nothing you've worn before. Designed with shiny black patent leather or your choice of metallic tip."
+            }
+          },
+          "1574687851236": {
+            "type": "collection",
+            "settings": {
+              "collection": "bicoastal-men",
+              "image": "",
+              "image_alignment": "center center",
+              "content_position": "bottomLeft",
+              "title": "BICOASTAL MEN",
+              "content": "Adding to your satorial splendor, this best-selling <a href=\"https:\/\/badichibelts.com\/pages\/men\">men's leather belt<\/a> is tipped with premium Italian Saffiano leather available in three rich classic colors."
+            }
+          },
+          "1574687862413": {
+            "type": "collection",
+            "settings": {
+              "collection": "double-agent-men",
+              "image": "",
+              "image_alignment": "center center",
+              "content_position": "bottomLeft",
+              "title": "DOUBLE AGENT MEN",
+              "content": "The finest in classic men's Italian leather belt."
+            }
+          },
+          "1574687880235": {
+            "type": "collection",
+            "settings": {
+              "collection": "east-meets-west-men",
+              "image": "",
+              "image_alignment": "center center",
+              "content_position": "bottomLeft",
+              "title": "EAST MEETS WEST MEN",
+              "content": "Dress up your style with something truly unique. The East Meets West Belt designed with luxurious pony hair leather tip."
+            }
+          },
+          "1574687895620": {
+            "type": "collection",
+            "settings": {
+              "collection": "first-class-men",
+              "image": "",
+              "image_alignment": "center center",
+              "content_position": "bottomLeft",
+              "title": "FIRST CLASS MEN",
+              "content": "A timeless classic leather belt designed to complete any look."
+            }
+          },
+          "1574687914532": {
+            "type": "collection",
+            "settings": {
+              "collection": "exotica-men",
+              "image": "",
+              "image_alignment": "center center",
+              "content_position": "bottomLeft",
+              "title": "EXOTICA MEN",
+              "content": "When turning heads is part of your style game. Show off your exotic alligator embossed tipped leather belt."
+            }
+          }
+        },
+        "block_order": [
+          "1574687836302",
+          "1574687851236",
+          "1574687862413",
+          "1574687880235",
+          "1574687895620",
+          "1574687914532"
+        ],
+        "settings": {
+          "title": "Men's Leather Dress Belts",
+          "collections_to_show": "selected",
+          "image_size": "normal",
+          "add_spacing": true,
+          "expand_collection": false,
+          "apply_overlay": true,
+          "text_color": "#ffffff",
+          "button_color": "#363636"
+        }
+      },
+      "women-collection-casual": {
+        "type": "women-collection-casual",
+        "blocks": {
+          "1574688464055": {
+            "type": "collection",
+            "settings": {
+              "collection": "jet-set-women",
+              "image": "",
+              "image_alignment": "center center",
+              "content_position": "bottomLeft",
+              "title": "JET SET WOMEN",
+              "content": "Denim that fits every waistline. Versatile, flattering and livens up any casual look with its colored denim tip, making it one of the best casual <a href=\"https:\/\/badichibelts.com\/pages\/women\">womens leather belts<\/a> on the market.",
+              "button_text": "View products"
+            }
+          },
+          "1574688480179": {
+            "type": "collection",
+            "settings": {
+              "collection": "bicoastal-women",
+              "image": "",
+              "image_alignment": "center center",
+              "content_position": "bottomLeft",
+              "title": "",
+              "content": "Discover the luxury of handmade 100% Italian cowhide leather belt accented with the finest Saffiano leather tip. Durable, high resistant and a true classic <a href=\"https:\/\/badichibelts.com\/\">custom made leather belt.<\/a> This is one of our best selling womens casual belts for sale.",
+              "button_text": "View products"
+            }
+          },
+          "1574688489908": {
+            "type": "collection",
+            "settings": {
+              "collection": "first-class-women",
+              "image": "",
+              "image_alignment": "center center",
+              "content_position": "bottomLeft",
+              "title": "",
+              "content": "Geniune 100% Italian leather belt with subtle exposed stitching details. It makes for one of the best women's leather belts for jeans.",
+              "button_text": ""
+            }
+          },
+          "1574688498146": {
+            "type": "collection",
+            "settings": {
+              "collection": "exotica-women",
+              "image": "",
+              "image_alignment": "center center",
+              "content_position": "bottomLeft",
+              "title": "",
+              "content": "For a head-turning exotic detail, discover The Exotica designed with an alligator embossed tip. Great belt to wear with jeans or other casual attire.",
+              "button_text": ""
+            }
+          },
+          "1574688509995": {
+            "type": "collection",
+            "settings": {
+              "collection": "east-meets-west-women",
+              "image": "",
+              "image_alignment": "center center",
+              "content_position": "bottomLeft",
+              "title": "",
+              "content": "Made from the finest pony hair dyed in black, bordeaux or brown for a luxurious touch of flair at the tip of your womens casual belt.",
+              "button_text": ""
+            }
+          },
+          "1574688517627": {
+            "type": "collection",
+            "settings": {
+              "collection": "mogul-women",
+              "image": "",
+              "image_alignment": "center center",
+              "content_position": "bottomLeft",
+              "title": "",
+              "content": "Made for the style mogul. Available with shiny black patent leather or shimmering metallic tip.",
+              "button_text": ""
+            }
+          },
+          "1582664827142": {
+            "type": "collection",
+            "settings": {
+              "collection": "the-mogul-skinny",
+              "image": "",
+              "image_alignment": "center center",
+              "content_position": "bottomLeft",
+              "title": "",
+              "content": "",
+              "button_text": "View products"
+            }
+          },
+          "1574688530220": {
+            "type": "collection",
+            "settings": {
+              "collection": "double-agent-women",
+              "image": "",
+              "image_alignment": "center center",
+              "content_position": "bottomLeft",
+              "title": "",
+              "content": "The premium classic leather belt that's anything but ordinary. Handcrafted to perfection from 100% high-quality Italian cowhide.",
+              "button_text": "View products"
+            }
+          }
+        },
+        "block_order": [
+          "1574688464055",
+          "1574688480179",
+          "1574688489908",
+          "1574688498146",
+          "1574688509995",
+          "1574688517627",
+          "1582664827142",
+          "1574688530220"
+        ],
+        "settings": {
+          "title": "Women's Casual Belts",
+          "collections_to_show": "selected",
+          "image_size": "normal",
+          "add_spacing": true,
+          "expand_collection": false,
+          "apply_overlay": true,
+          "text_color": "#ffffff",
+          "button_color": "#363636"
+        }
+      },
+      "women-collection-dressy": {
+        "type": "women-collection-dressy",
+        "blocks": {
+          "1574688578094": {
+            "type": "collection",
+            "settings": {
+              "collection": "mogul-women",
+              "image": "",
+              "image_alignment": "center center",
+              "content_position": "bottomLeft",
+              "title": "MOGUL WOMEN",
+              "content": "Add a touch of glamour with The Mogul <a href=\"https:\/\/badichibelts.com\/\">handcrafted leather belt<\/a> tipped with shiny patent leather or shimmering metallics."
+            }
+          },
+          "1582664863792": {
+            "type": "collection",
+            "settings": {
+              "collection": "the-mogul-skinny",
+              "image": "",
+              "image_alignment": "center center",
+              "content_position": "bottomLeft",
+              "title": "",
+              "content": ""
+            }
+          },
+          "1574688598174": {
+            "type": "collection",
+            "settings": {
+              "collection": "bicoastal-women",
+              "image": "",
+              "image_alignment": "center center",
+              "content_position": "bottomLeft",
+              "title": "",
+              "content": "The best of both worlds for <a href=\"https:\/\/badichibelts.com\/pages\/women\">womens leather belts<\/a>. 100% cowhide leather meets Saffiano leather at the belt tip."
+            }
+          },
+          "1574688607381": {
+            "type": "collection",
+            "settings": {
+              "collection": "double-agent-women",
+              "image": "",
+              "image_alignment": "center center",
+              "content_position": "bottomLeft",
+              "title": "",
+              "content": "Our classic leather belt made from 100% premium Italian cowhide leather so luxurious good enough to dress up any outfit."
+            }
+          },
+          "1574688621163": {
+            "type": "collection",
+            "settings": {
+              "collection": "east-meets-west-women",
+              "image": "",
+              "image_alignment": "center center",
+              "content_position": "bottomLeft",
+              "title": "",
+              "content": "Redefine elegance with a monotone leather belt paired with a smooth, luxurious pony hair tip."
+            }
+          },
+          "1574688629115": {
+            "type": "collection",
+            "settings": {
+              "collection": "first-class-women",
+              "image": "",
+              "image_alignment": "center center",
+              "content_position": "bottomLeft",
+              "title": "",
+              "content": "Available in four rich colors, The First Class is a spin on the classic leather belt with its exposed stitching."
+            }
+          },
+          "1574688637803": {
+            "type": "collection",
+            "settings": {
+              "collection": "exotica-women",
+              "image": "",
+              "image_alignment": "center center",
+              "content_position": "bottomLeft",
+              "title": "",
+              "content": "Make a bold statement with a finely detailed alligator embossed tipped leather belt."
+            }
+          }
+        },
+        "block_order": [
+          "1574688578094",
+          "1582664863792",
+          "1574688598174",
+          "1574688607381",
+          "1574688621163",
+          "1574688629115",
+          "1574688637803"
+        ],
+        "settings": {
+          "title": "Women's Leather Dress Belts",
+          "collections_to_show": "selected",
+          "image_size": "normal",
+          "add_spacing": true,
+          "expand_collection": false,
+          "apply_overlay": true,
+          "text_color": "#ffffff",
+          "button_color": "#363636"
+        }
+      },
+      "inspiration-men-1": {
+        "type": "inspiration-men-1",
+        "blocks": {
+          "1574853803907": {
+            "type": "collection",
+            "settings": {}
+          }
+        },
+        "block_order": [
+          "1574853803907"
+        ],
+        "settings": {
+          "hero_title": "GET INSPIRED",
+          "hero_desc": "WHAT'S HOLDING YOUR STYLE TOGETHER ?",
+          "image1": "shopify:\/\/shop_images\/double-agent-men-inspired-1.jpg",
+          "image2": "shopify:\/\/shop_images\/exotica-men-inspired-2.jpg",
+          "hero_sub_title": "LOREM IPSUM DOLOR SIT AMET",
+          "hero_sub_desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
+          "image3": "shopify:\/\/shop_images\/inspired-man-1.png",
+          "image4": "shopify:\/\/shop_images\/inspired-man2.png",
+          "image5": "shopify:\/\/shop_images\/inspired-man-3.png",
+          "feature_collection": "jet-set-men"
+        }
+      },
+      "inspiration-women-1": {
+        "type": "inspiration-women-1",
+        "settings": {
+          "hero_title": "GET INSPIRED",
+          "hero_desc": "WHAT'S HOLDING YOUR STYLE TOGETHER ?",
+          "image1": "",
+          "image2": "",
+          "hero_sub_title": "LOREM IPSUM DOLOR SIT AMET",
+          "hero_sub_desc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut",
+          "image3": "",
+          "image4": "",
+          "feature_collection": ""
+        }
+      },
+      "cart-template": {
+        "type": "cart-template",
+        "settings": {
+          "show_shipping_estimator": true,
+          "shipping_estimator_default_country": "United States"
+        }
+      },
+      "product-template-2": {
+        "type": "product-template-2",
+        "settings": {
+          "show_share_buttons": true,
+          "show_vendor": true,
+          "show_sku": false,
+          "description_below_add_to_cart": false,
+          "selector_mode": "dropdown",
+          "show_color_swatch": false,
+          "show_color_carousel": false,
+          "show_quantity_selector": true,
+          "show_inventory_quantity": false,
+          "inventory_quantity_threshold": 0,
+          "show_price_in_button": false,
+          "show_payment_button": true,
+          "image_size": "large",
+          "stack_images": true,
+          "show_thumbnails": true,
+          "enable_image_zoom": true,
+          "tab_page_1_handle": "",
+          "tab_page_2_handle": "",
+          "reviews_enabled": false,
+          "featured_image_size": "large"
+        }
+      }
+    },
+    "content_for_index": [
+      "slideshow",
+      "featured-collections"
+    ]
+  },
+  "presets": {
+    "Allure": {
+      "heading_color": "#1c1b1b",
+      "text_color": "#1c1b1b",
+      "text_light_color": "#6a6a6a",
+      "link_color": "#6a6a6a",
+      "background": "#efefef",
+      "light_background": "#ffffff",
+      "product_on_sale_color": "#f94c43",
+      "button_background": "#1c1b1b",
+      "button_text_color": "#ffffff",
+      "header_background": "#ffffff",
+      "header_heading_color": "#1c1b1b",
+      "header_light_color": "#6a6a6a",
+      "footer_background": "#ffffff",
+      "footer_heading_color": "#1c1b1b",
+      "footer_text_color": "#6a6a6a",
+      "newsletter_popup_background": "#1c1b1b",
+      "newsletter_popup_text_color": "#ffffff",
+      "secondary_elements_background": "#1c1b1b",
+      "secondary_elements_text_color": "#ffffff",
+      "navigation_background": "#1c1b1b",
+      "navigation_text_color": "#ffffff",
+      "heading_font": "montserrat_n5",
+      "heading_size": "small",
+      "uppercase_heading": true,
+      "text_font": "nunito_sans_n4",
+      "base_text_font_size": 14,
+      "currency_conversion_enabled": false,
+      "currency_conversion_round_amounts": true,
+      "currency_conversion_supported_currencies": "USD CAD EUR GBP",
+      "currency_conversion_money_format": "money_format",
+      "show_page_transition": true,
+      "search_mode": "product,article",
+      "product_show_price_on_hover": false,
+      "product_show_secondary_image": false,
+      "product_info_alignment": "center",
+      "product_image_size": "natural",
+      "product_list_horizontal_spacing": "medium",
+      "product_list_vertical_spacing": "small",
+      "cart_type": "drawer",
+      "cart_enable_notes": true,
+      "cart_show_free_shipping_threshold": false,
+      "cart_free_shipping_threshold": "50",
+      "checkout_logo_position": "center",
+      "checkout_logo_size": "small",
+      "checkout_body_background_color": "#ffffff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_color": "#efefef",
+      "checkout_accent_color": "#1c1b1b",
+      "checkout_button_color": "#1c1b1b",
+      "sections": {
+        "sidebar-menu": {
+          "type": "sidebar-menu",
+          "settings": {
+            "primary_menu": "main-menu",
+            "show_social_media": true
+          }
+        },
+        "announcement": {
+          "type": "announcement",
+          "settings": {
+            "background": "#000000",
+            "text_color": "#ffffff",
+            "content": "Announce something here"
+          }
+        },
+        "header": {
+          "type": "header",
+          "settings": {
+            "use_sticky_header": true,
+            "logo_max_width": 140,
+            "navigation_menu": "main-menu",
+            "navigation_style": "inline",
+            "enable_transparent_header": true,
+            "transparent_text_color": "#ffffff"
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "footer-0": {
+              "type": "text",
+              "settings": {
+                "title": "About the shop",
+                "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme settings.<\/p>",
+                "show_social_media": true
+              }
+            },
+            "footer-1": {
+              "type": "links",
+              "settings": {
+                "menu": "footer"
+              }
+            },
+            "footer-2": {
+              "type": "newsletter",
+              "settings": {
+                "title": "Newsletter",
+                "content": "<p>Subscribe to receive updates, access to exclusive deals, and more.<\/p>"
+              }
+            }
+          },
+          "block_order": [
+            "footer-0",
+            "footer-1",
+            "footer-2"
+          ],
+          "settings": {
+            "show_payment_methods": true
+          }
+        },
+        "slideshow": {
+          "type": "slideshow",
+          "blocks": {
+            "slide-0": {
+              "type": "image",
+              "settings": {
+                "apply_overlay": true,
+                "content_position": "bottomLeft",
+                "subheading": "Slide title",
+                "title": "Tell your story"
+              }
+            },
+            "slide-1": {
+              "type": "image",
+              "settings": {
+                "apply_overlay": true,
+                "content_position": "bottomLeft",
+                "subheading": "Slide title",
+                "title": "Tell your story"
+              }
+            }
+          },
+          "block_order": [
+            "slide-0",
+            "slide-1"
+          ],
+          "settings": {
+            "show_fullscreen": true,
+            "show_arrow": false,
+            "autoplay": true,
+            "cycle_speed": 5,
+            "text_color": "#ffffff",
+            "button_color": "#363636"
+          }
+        },
+        "featured-collections": {
+          "type": "featured-collections",
+          "blocks": {
+            "featured-collection-0": {
+              "type": "collection",
+              "settings": {
+                "grid_items_count": 8,
+                "button_text": "View all products"
+              }
+            }
+          },
+          "block_order": [
+            "featured-collection-0"
+          ],
+          "settings": {
+            "title": "Featured collection",
+            "layout_mode": "grid",
+            "show_product_info": true,
+            "grid_mobile_items_per_row": "2",
+            "grid_desktop_items_per_row": 4
+          }
+        },
+        "collection-list": {
+          "type": "collection-list",
+          "blocks": {
+            "collection-0": {
+              "type": "collection",
+              "settings": {
+                "image_alignment": "center center",
+                "subheading": "Sub-heading",
+                "button_text": "View products",
+                "apply_overlay": true
+              }
+            },
+            "collection-1": {
+              "type": "collection",
+              "settings": {
+                "image_alignment": "center center",
+                "subheading": "Sub-heading",
+                "button_text": "View products",
+                "apply_overlay": true
+              }
+            },
+            "collection-2": {
+              "type": "collection",
+              "settings": {
+                "image_alignment": "center center",
+                "subheading": "Sub-heading",
+                "button_text": "View products",
+                "apply_overlay": true
+              }
+            }
+          },
+          "block_order": [
+            "collection-0",
+            "collection-1",
+            "collection-2"
+          ],
+          "settings": {
+            "add_spacing": true,
+            "expand_collection": false,
+            "text_color": "#ffffff",
+            "button_color": "#363636"
+          }
+        },
+        "featured-product": {
+          "type": "featured-product",
+          "settings": {
+            "title": "Featured product",
+            "show_vendor": true,
+            "show_description": true,
+            "show_color_swatch": false,
+            "show_color_carousel": false,
+            "show_quantity_selector": true,
+            "show_inventory_quantity": false,
+            "inventory_quantity_threshold": 3
+          }
+        },
+        "timeline": {
+          "type": "timeline",
+          "blocks": {
+            "item-0": {
+              "type": "item",
+              "settings": {
+                "apply_overlay": true,
+                "title": "2000",
+                "subheading": "Sub-heading",
+                "heading": "Heading",
+                "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
+              }
+            },
+            "item-1": {
+              "type": "item",
+              "settings": {
+                "apply_overlay": true,
+                "title": "2001",
+                "subheading": "Sub-heading",
+                "heading": "Heading",
+                "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
+              }
+            },
+            "item-2": {
+              "type": "item",
+              "settings": {
+                "apply_overlay": true,
+                "title": "2002",
+                "subheading": "Sub-heading",
+                "heading": "Heading",
+                "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
+              }
+            }
+          },
+          "block_order": [
+            "item-0",
+            "item-1",
+            "item-2"
+          ],
+          "settings": {
+            "text_color": "#ffffff"
+          }
+        },
+        "blog-posts": {
+          "type": "blog-posts",
+          "blocks": {
+            "blog-0": {
+              "type": "blog",
+              "settings": {
+                "blog": "news"
+              }
+            }
+          },
+          "block_order": [
+            "blog-0"
+          ],
+          "settings": {
+            "title": "Featured article",
+            "show_category": false,
+            "button_text": "View all articles"
+          }
+        },
+        "shop-the-look": {
+          "type": "shop-the-look",
+          "blocks": {
+            "look-0": {
+              "type": "look",
+              "settings": {
+                "dot_style": "light",
+                "product_1_horizontal_position": 30,
+                "product_1_vertical_position": 40,
+                "product_2_horizontal_position": 45,
+                "product_2_vertical_position": 65,
+                "product_3_horizontal_position": 70,
+                "product_3_vertical_position": 50
+              }
+            },
+            "look-1": {
+              "type": "look",
+              "settings": {
+                "dot_style": "light",
+                "product_1_horizontal_position": 25,
+                "product_1_vertical_position": 45,
+                "product_2_horizontal_position": 55,
+                "product_2_vertical_position": 30,
+                "product_3_horizontal_position": 65,
+                "product_3_vertical_position": 60
+              }
+            }
+          },
+          "block_order": [
+            "look-0",
+            "look-1"
+          ],
+          "settings": {
+            "subheading": "Shop",
+            "title": "Our looks"
+          }
+        },
+        "collection-template": {
+          "type": "collection-template",
+          "settings": {
+            "show_collection_info": true,
+            "show_collection_image": false,
+            "show_sort_by": true,
+            "show_layout_switch": false,
+            "toolbar_position": "bottom",
+            "filter_position": "sidebar",
+            "filter_mode": "tag",
+            "show_filter_color_swatch": true,
+            "grid_items_per_page": 16,
+            "grid_mobile_items_per_row": "2",
+            "grid_desktop_items_per_row": 4
+          }
+        },
+        "recently-viewed-products": {
+          "type": "recently-viewed-products",
+          "settings": {
+            "show_section": true,
+            "title": "Recently viewed",
+            "show_product_info": true
+          }
+        },
+        "collection-footer": {
+          "type": "collection-footer",
+          "settings": {
+            "show_section": false,
+            "text_color": "#ffffff",
+            "apply_overlay": true,
+            "title": "Our story",
+            "content": "<p>Add your own custom content to explain your processes...<\/p>"
+          }
+        },
+        "product-template": {
+          "type": "product-template",
+          "settings": {
+            "show_share_buttons": true,
+            "show_vendor": true,
+            "show_color_swatch": false,
+            "show_color_carousel": false,
+            "show_quantity_selector": true,
+            "show_inventory_quantity": false,
+            "inventory_quantity_threshold": 3,
+            "image_size": "large",
+            "stack_images": true,
+            "show_thumbnails": false,
+            "enable_image_zoom": true,
+            "reviews_enabled": false
+          }
+        },
+        "product-recommendations": {
+          "type": "product-recommendations",
+          "settings": {
+            "show_product_recommendations": true,
+            "show_product_info": true
+          }
+        }
+      },
+      "content_for_index": [
+        "slideshow",
+        "featured-collections",
+        "collection-list",
+        "featured-product",
+        "timeline",
+        "blog-posts",
+        "shop-the-look"
+      ]
+    },
+    "Couture": {
+      "heading_color": "#5c5c5c",
+      "text_color": "#5c5c5c",
+      "text_light_color": "#939393",
+      "link_color": "#323232",
+      "background": "#ffffff",
+      "light_background": "#ffffff",
+      "product_on_sale_color": "#f94c43",
+      "button_background": "#5c5c5c",
+      "button_text_color": "#ffffff",
+      "header_background": "#ffffff",
+      "header_heading_color": "#5c5c5c",
+      "header_light_color": "#939393",
+      "footer_background": "#ffffff",
+      "footer_heading_color": "#5c5c5c",
+      "footer_text_color": "#939393",
+      "newsletter_popup_background": "#ffffff",
+      "newsletter_popup_text_color": "#1c1b1b",
+      "secondary_elements_background": "#5c5c5c",
+      "secondary_elements_text_color": "#ffffff",
+      "navigation_background": "#ffffff",
+      "navigation_text_color": "#5c5c5c",
+      "heading_font": "futura_n4",
+      "heading_size": "large",
+      "uppercase_heading": false,
+      "text_font": "century_gothic_n4",
+      "base_text_font_size": 15,
+      "currency_conversion_enabled": false,
+      "currency_conversion_round_amounts": true,
+      "currency_conversion_supported_currencies": "USD CAD EUR GBP",
+      "currency_conversion_money_format": "money_format",
+      "show_page_transition": true,
+      "search_mode": "product,article",
+      "product_show_price_on_hover": true,
+      "product_show_secondary_image": false,
+      "product_info_alignment": "left",
+      "product_image_size": "natural",
+      "product_list_horizontal_spacing": "small",
+      "product_list_vertical_spacing": "small",
+      "cart_type": "drawer",
+      "cart_enable_notes": true,
+      "cart_show_free_shipping_threshold": false,
+      "cart_free_shipping_threshold": "50",
+      "checkout_logo_position": "center",
+      "checkout_logo_size": "small",
+      "checkout_body_background_color": "#fff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_color": "#fafafa",
+      "checkout_accent_color": "#323232",
+      "checkout_button_color": "#5c5c5c",
+      "sections": {
+        "sidebar-menu": {
+          "type": "sidebar-menu",
+          "settings": {
+            "primary_menu": "main-menu",
+            "show_social_media": true
+          }
+        },
+        "announcement": {
+          "type": "announcement",
+          "settings": {
+            "background": "#f3f3f3",
+            "text_color": "#5c5c5c",
+            "content": "Announce something here"
+          }
+        },
+        "header": {
+          "type": "header",
+          "settings": {
+            "use_sticky_header": true,
+            "logo_max_width": 140,
+            "navigation_menu": "main-menu",
+            "navigation_style": "center",
+            "enable_transparent_header": true,
+            "transparent_text_color": "#ffffff"
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "footer-0": {
+              "type": "text",
+              "settings": {
+                "title": "About the shop",
+                "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme settings.<\/p>",
+                "show_social_media": true
+              }
+            },
+            "footer-1": {
+              "type": "links",
+              "settings": {
+                "menu": "footer"
+              }
+            },
+            "footer-2": {
+              "type": "newsletter",
+              "settings": {
+                "title": "Newsletter",
+                "content": "<p>Subscribe to receive updates, access to exclusive deals, and more.<\/p>"
+              }
+            }
+          },
+          "block_order": [
+            "footer-0",
+            "footer-1",
+            "footer-2"
+          ],
+          "settings": {
+            "show_payment_methods": true
+          }
+        },
+        "slideshow": {
+          "type": "slideshow",
+          "blocks": {
+            "slide-0": {
+              "type": "image",
+              "settings": {
+                "apply_overlay": true,
+                "content_position": "bottomLeft",
+                "subheading": "Slide title",
+                "title": "Tell your story"
+              }
+            },
+            "slide-1": {
+              "type": "image",
+              "settings": {
+                "apply_overlay": true,
+                "content_position": "bottomLeft",
+                "subheading": "Slide title",
+                "title": "Tell your story"
+              }
+            }
+          },
+          "block_order": [
+            "slide-0",
+            "slide-1"
+          ],
+          "settings": {
+            "show_fullscreen": true,
+            "show_arrow": false,
+            "autoplay": true,
+            "cycle_speed": 5,
+            "text_color": "#ffffff",
+            "button_color": "#363636"
+          }
+        },
+        "featured-collections": {
+          "type": "featured-collections",
+          "blocks": {
+            "featured-collection-0": {
+              "type": "collection",
+              "settings": {
+                "grid_items_count": 8,
+                "button_text": "View all products"
+              }
+            }
+          },
+          "block_order": [
+            "featured-collection-0"
+          ],
+          "settings": {
+            "title": "Featured collection",
+            "layout_mode": "grid",
+            "show_product_info": true,
+            "grid_mobile_items_per_row": "2",
+            "grid_desktop_items_per_row": 4
+          }
+        },
+        "collection-list": {
+          "type": "collection-list",
+          "blocks": {
+            "collection-0": {
+              "type": "collection",
+              "settings": {
+                "image_alignment": "center center",
+                "subheading": "Sub-heading",
+                "button_text": "View products",
+                "apply_overlay": true
+              }
+            },
+            "collection-1": {
+              "type": "collection",
+              "settings": {
+                "image_alignment": "center center",
+                "subheading": "Sub-heading",
+                "button_text": "View products",
+                "apply_overlay": true
+              }
+            },
+            "collection-2": {
+              "type": "collection",
+              "settings": {
+                "image_alignment": "center center",
+                "subheading": "Sub-heading",
+                "button_text": "View products",
+                "apply_overlay": true
+              }
+            }
+          },
+          "block_order": [
+            "collection-0",
+            "collection-1",
+            "collection-2"
+          ],
+          "settings": {
+            "add_spacing": true,
+            "expand_collection": false,
+            "text_color": "#ffffff",
+            "button_color": "#363636"
+          }
+        },
+        "featured-product": {
+          "type": "featured-product",
+          "settings": {
+            "title": "Featured product",
+            "show_vendor": true,
+            "show_description": true,
+            "show_color_swatch": false,
+            "show_color_carousel": false,
+            "show_quantity_selector": true,
+            "show_inventory_quantity": false,
+            "inventory_quantity_threshold": 3
+          }
+        },
+        "timeline": {
+          "type": "timeline",
+          "blocks": {
+            "item-0": {
+              "type": "item",
+              "settings": {
+                "apply_overlay": true,
+                "title": "2000",
+                "subheading": "Sub-heading",
+                "heading": "Heading",
+                "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
+              }
+            },
+            "item-1": {
+              "type": "item",
+              "settings": {
+                "apply_overlay": true,
+                "title": "2001",
+                "subheading": "Sub-heading",
+                "heading": "Heading",
+                "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
+              }
+            },
+            "item-2": {
+              "type": "item",
+              "settings": {
+                "apply_overlay": true,
+                "title": "2002",
+                "subheading": "Sub-heading",
+                "heading": "Heading",
+                "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
+              }
+            }
+          },
+          "block_order": [
+            "item-0",
+            "item-1",
+            "item-2"
+          ],
+          "settings": {
+            "text_color": "#ffffff"
+          }
+        },
+        "blog-posts": {
+          "type": "blog-posts",
+          "blocks": {
+            "blog-0": {
+              "type": "blog",
+              "settings": {
+                "blog": "news"
+              }
+            }
+          },
+          "block_order": [
+            "blog-0"
+          ],
+          "settings": {
+            "title": "Featured article",
+            "show_category": false,
+            "button_text": "View all articles"
+          }
+        },
+        "shop-the-look": {
+          "type": "shop-the-look",
+          "blocks": {
+            "look-0": {
+              "type": "look",
+              "settings": {
+                "dot_style": "light",
+                "product_1_horizontal_position": 30,
+                "product_1_vertical_position": 40,
+                "product_2_horizontal_position": 45,
+                "product_2_vertical_position": 65,
+                "product_3_horizontal_position": 70,
+                "product_3_vertical_position": 50
+              }
+            },
+            "look-1": {
+              "type": "look",
+              "settings": {
+                "dot_style": "light",
+                "product_1_horizontal_position": 25,
+                "product_1_vertical_position": 45,
+                "product_2_horizontal_position": 55,
+                "product_2_vertical_position": 30,
+                "product_3_horizontal_position": 65,
+                "product_3_vertical_position": 60
+              }
+            }
+          },
+          "block_order": [
+            "look-0",
+            "look-1"
+          ],
+          "settings": {
+            "subheading": "Shop",
+            "title": "Our looks"
+          }
+        },
+        "collection-template": {
+          "type": "collection-template",
+          "settings": {
+            "show_collection_info": true,
+            "show_collection_image": false,
+            "show_sort_by": true,
+            "show_layout_switch": false,
+            "toolbar_position": "bottom",
+            "filter_position": "sidebar",
+            "filter_mode": "tag",
+            "show_filter_color_swatch": true,
+            "grid_items_per_page": 16,
+            "grid_mobile_items_per_row": "2",
+            "grid_desktop_items_per_row": 4
+          }
+        },
+        "recently-viewed-products": {
+          "type": "recently-viewed-products",
+          "settings": {
+            "show_section": true,
+            "title": "Recently viewed",
+            "show_product_info": true
+          }
+        },
+        "collection-footer": {
+          "type": "collection-footer",
+          "settings": {
+            "show_section": false,
+            "text_color": "#ffffff",
+            "apply_overlay": true,
+            "title": "Our story",
+            "content": "<p>Add your own custom content to explain your processes...<\/p>"
+          }
+        },
+        "product-template": {
+          "type": "product-template",
+          "settings": {
+            "show_share_buttons": true,
+            "show_vendor": true,
+            "show_color_swatch": false,
+            "show_color_carousel": false,
+            "show_quantity_selector": true,
+            "show_inventory_quantity": false,
+            "inventory_quantity_threshold": 3,
+            "image_size": "large",
+            "stack_images": true,
+            "show_thumbnails": false,
+            "enable_image_zoom": true,
+            "reviews_enabled": false
+          }
+        },
+        "product-recommendations": {
+          "type": "product-recommendations",
+          "settings": {
+            "show_product_recommendations": true,
+            "show_product_info": true
+          }
+        }
+      },
+      "content_for_index": [
+        "slideshow",
+        "featured-collections",
+        "collection-list",
+        "featured-product",
+        "timeline",
+        "blog-posts",
+        "shop-the-look"
+      ]
+    },
+    "Vogue": {
+      "heading_color": "#454545",
+      "text_color": "#454545",
+      "text_light_color": "#9d9d9d",
+      "link_color": "#a17c5e",
+      "background": "#ffffff",
+      "light_background": "#ffffff",
+      "product_on_sale_color": "#f94c43",
+      "button_background": "#c2a284",
+      "button_text_color": "#ffffff",
+      "header_background": "#ffffff",
+      "header_heading_color": "#454545",
+      "header_light_color": "#9d9d9d",
+      "footer_background": "#ffffff",
+      "footer_heading_color": "#454545",
+      "footer_text_color": "#9d9d9d",
+      "newsletter_popup_background": "#454545",
+      "newsletter_popup_text_color": "#ffffff",
+      "secondary_elements_background": "#f1e4d8",
+      "secondary_elements_text_color": "#373737",
+      "navigation_background": "#454545",
+      "navigation_text_color": "#ffffff",
+      "heading_font": "din_neuzeit_grotesk_n3",
+      "heading_size": "small",
+      "uppercase_heading": true,
+      "text_font": "futura_n4",
+      "base_text_font_size": 14,
+      "currency_conversion_enabled": false,
+      "currency_conversion_round_amounts": true,
+      "currency_conversion_supported_currencies": "USD CAD EUR GBP",
+      "currency_conversion_money_format": "money_format",
+      "show_page_transition": true,
+      "show_element_staggering": false,
+      "search_mode": "product,article",
+      "product_show_price_on_hover": true,
+      "product_show_secondary_image": false,
+      "product_info_alignment": "center",
+      "product_image_size": "natural",
+      "product_list_horizontal_spacing": "medium",
+      "product_list_vertical_spacing": "small",
+      "cart_type": "drawer",
+      "cart_enable_notes": true,
+      "cart_show_free_shipping_threshold": false,
+      "cart_free_shipping_threshold": "50",
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "medium",
+      "checkout_body_background_color": "#fff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_color": "#fafafa",
+      "checkout_accent_color": "#a17c5e",
+      "checkout_button_color": "#454545",
+      "sections": {
+        "sidebar-menu": {
+          "type": "sidebar-menu",
+          "settings": {
+            "primary_menu": "main-menu",
+            "show_social_media": true
+          }
+        },
+        "announcement": {
+          "type": "announcement",
+          "settings": {
+            "background": "#f1e4d8",
+            "text_color": "#343434",
+            "content": "Announce something here"
+          }
+        },
+        "header": {
+          "type": "header",
+          "settings": {
+            "use_sticky_header": true,
+            "logo_max_width": 140,
+            "navigation_menu": "main-menu",
+            "navigation_style": "inline",
+            "enable_transparent_header": true,
+            "transparent_text_color": "#ffffff"
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "footer-0": {
+              "type": "text",
+              "settings": {
+                "title": "About the shop",
+                "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme settings.<\/p>",
+                "show_social_media": true
+              }
+            },
+            "footer-1": {
+              "type": "links",
+              "settings": {
+                "menu": "footer"
+              }
+            },
+            "footer-2": {
+              "type": "newsletter",
+              "settings": {
+                "title": "Newsletter",
+                "content": "<p>Subscribe to receive updates, access to exclusive deals, and more.<\/p>"
+              }
+            }
+          },
+          "block_order": [
+            "footer-0",
+            "footer-1",
+            "footer-2"
+          ],
+          "settings": {
+            "show_payment_methods": true
+          }
+        },
+        "slideshow": {
+          "type": "slideshow",
+          "blocks": {
+            "slide-0": {
+              "type": "image",
+              "settings": {
+                "apply_overlay": true,
+                "content_position": "bottomLeft",
+                "subheading": "Slide title",
+                "title": "Tell your story"
+              }
+            },
+            "slide-1": {
+              "type": "image",
+              "settings": {
+                "apply_overlay": true,
+                "content_position": "bottomLeft",
+                "subheading": "Slide title",
+                "title": "Tell your story"
+              }
+            }
+          },
+          "block_order": [
+            "slide-0",
+            "slide-1"
+          ],
+          "settings": {
+            "show_fullscreen": true,
+            "show_arrow": false,
+            "autoplay": true,
+            "cycle_speed": 5,
+            "text_color": "#ffffff",
+            "button_color": "#363636"
+          }
+        },
+        "featured-collections": {
+          "type": "featured-collections",
+          "blocks": {
+            "featured-collection-0": {
+              "type": "collection",
+              "settings": {
+                "grid_items_count": 8,
+                "button_text": "View all products"
+              }
+            }
+          },
+          "block_order": [
+            "featured-collection-0"
+          ],
+          "settings": {
+            "title": "Featured collection",
+            "layout_mode": "grid",
+            "show_product_info": true,
+            "grid_mobile_items_per_row": "2",
+            "grid_desktop_items_per_row": 4
+          }
+        },
+        "collection-list": {
+          "type": "collection-list",
+          "blocks": {
+            "collection-0": {
+              "type": "collection",
+              "settings": {
+                "image_alignment": "center center",
+                "subheading": "Sub-heading",
+                "button_text": "View products",
+                "apply_overlay": true
+              }
+            },
+            "collection-1": {
+              "type": "collection",
+              "settings": {
+                "image_alignment": "center center",
+                "subheading": "Sub-heading",
+                "button_text": "View products",
+                "apply_overlay": true
+              }
+            },
+            "collection-2": {
+              "type": "collection",
+              "settings": {
+                "image_alignment": "center center",
+                "subheading": "Sub-heading",
+                "button_text": "View products",
+                "apply_overlay": true
+              }
+            }
+          },
+          "block_order": [
+            "collection-0",
+            "collection-1",
+            "collection-2"
+          ],
+          "settings": {
+            "add_spacing": true,
+            "expand_collection": false,
+            "text_color": "#ffffff",
+            "button_color": "#363636"
+          }
+        },
+        "featured-product": {
+          "type": "featured-product",
+          "settings": {
+            "title": "Featured product",
+            "show_vendor": true,
+            "show_description": true,
+            "show_color_swatch": false,
+            "show_color_carousel": false,
+            "show_quantity_selector": true,
+            "show_inventory_quantity": false,
+            "inventory_quantity_threshold": 3
+          }
+        },
+        "timeline": {
+          "type": "timeline",
+          "blocks": {
+            "item-0": {
+              "type": "item",
+              "settings": {
+                "apply_overlay": true,
+                "title": "2000",
+                "subheading": "Sub-heading",
+                "heading": "Heading",
+                "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
+              }
+            },
+            "item-1": {
+              "type": "item",
+              "settings": {
+                "apply_overlay": true,
+                "title": "2001",
+                "subheading": "Sub-heading",
+                "heading": "Heading",
+                "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
+              }
+            },
+            "item-2": {
+              "type": "item",
+              "settings": {
+                "apply_overlay": true,
+                "title": "2002",
+                "subheading": "Sub-heading",
+                "heading": "Heading",
+                "content": "<p>Add your own custom content to give more information about your store, availability details...<\/p>"
+              }
+            }
+          },
+          "block_order": [
+            "item-0",
+            "item-1",
+            "item-2"
+          ],
+          "settings": {
+            "text_color": "#ffffff"
+          }
+        },
+        "blog-posts": {
+          "type": "blog-posts",
+          "blocks": {
+            "blog-0": {
+              "type": "blog",
+              "settings": {
+                "blog": "news"
+              }
+            }
+          },
+          "block_order": [
+            "blog-0"
+          ],
+          "settings": {
+            "title": "Featured article",
+            "show_category": false,
+            "button_text": "View all articles"
+          }
+        },
+        "shop-the-look": {
+          "type": "shop-the-look",
+          "blocks": {
+            "look-0": {
+              "type": "look",
+              "settings": {
+                "dot_style": "light",
+                "product_1_horizontal_position": 30,
+                "product_1_vertical_position": 40,
+                "product_2_horizontal_position": 45,
+                "product_2_vertical_position": 65,
+                "product_3_horizontal_position": 70,
+                "product_3_vertical_position": 50
+              }
+            },
+            "look-1": {
+              "type": "look",
+              "settings": {
+                "dot_style": "light",
+                "product_1_horizontal_position": 25,
+                "product_1_vertical_position": 45,
+                "product_2_horizontal_position": 55,
+                "product_2_vertical_position": 30,
+                "product_3_horizontal_position": 65,
+                "product_3_vertical_position": 60
+              }
+            }
+          },
+          "block_order": [
+            "look-0",
+            "look-1"
+          ],
+          "settings": {
+            "subheading": "Shop",
+            "title": "Our looks"
+          }
+        },
+        "collection-template": {
+          "type": "collection-template",
+          "settings": {
+            "show_collection_info": true,
+            "show_collection_image": false,
+            "show_sort_by": true,
+            "show_layout_switch": false,
+            "toolbar_position": "bottom",
+            "filter_position": "sidebar",
+            "filter_mode": "tag",
+            "show_filter_color_swatch": true,
+            "grid_items_per_page": 16,
+            "grid_mobile_items_per_row": "2",
+            "grid_desktop_items_per_row": 4
+          }
+        },
+        "recently-viewed-products": {
+          "type": "recently-viewed-products",
+          "settings": {
+            "show_section": true,
+            "title": "Recently viewed",
+            "show_product_info": true
+          }
+        },
+        "collection-footer": {
+          "type": "collection-footer",
+          "settings": {
+            "show_section": false,
+            "text_color": "#ffffff",
+            "apply_overlay": true,
+            "title": "Our story",
+            "content": "<p>Add your own custom content to explain your processes...<\/p>"
+          }
+        },
+        "product-template": {
+          "type": "product-template",
+          "settings": {
+            "show_share_buttons": true,
+            "show_vendor": true,
+            "show_color_swatch": false,
+            "show_color_carousel": false,
+            "show_quantity_selector": true,
+            "show_inventory_quantity": false,
+            "inventory_quantity_threshold": 3,
+            "image_size": "large",
+            "stack_images": true,
+            "show_thumbnails": false,
+            "enable_image_zoom": true,
+            "reviews_enabled": false
+          }
+        },
+        "product-recommendations": {
+          "type": "product-recommendations",
+          "settings": {
+            "show_product_recommendations": true,
+            "show_product_info": true
+          }
+        }
+      },
+      "content_for_index": [
+        "slideshow",
+        "featured-collections",
+        "collection-list",
+        "featured-product",
+        "timeline",
+        "blog-posts",
+        "shop-the-look"
+      ]
+    }
+  }
+}

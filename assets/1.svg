@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+
+<!-- Page 1 -->
+<svg x="0" y="0" width="275" height="26" viewBox="0 0 275 46" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+style="display: block;margin-left: auto;margin-right: auto;">
+<defs>
+<clipPath id="c_1"><path d="M0,0H275V46H0Z"/></clipPath>
+<clipPath id="c0"><path d="M0,46.9V0H275.3V46.9Z"/></clipPath>
+
+<style type="text/css"><![CDATA[
+text { white-space: pre; }
+path, image { pointer-events: none; }
+text::-moz-selection {
+	color: transparent;
+	background: rgba(0, 106, 173, 0.4);
+}
+text::selection {
+	color: transparent;
+	background: rgba(0, 106, 173, 0.4);
+}
+
+.s1{
+font-size: 55.00px;
+font-family: FuturaPT-Book_5;
+fill: TRANSPARENT;
+}
+
+
+]]></style>
+
+</defs>
+<g clip-path="url(#c_1)">
+<path d="M0,0
+L0,46
+L275,46
+L275,0 Z " 
+fill="#FFFFFF" stroke="none"/>
+<g clip-path="url(#c0)">
+<g fill="#231F20" >
+<use xlink:href="#f0_4" transform="matrix(36,0,0,36,1.7,41.6)" />
+<use xlink:href="#f0_3" transform="matrix(36,0,0,36,43.7,41.6)" />
+<use xlink:href="#f0_6" transform="matrix(36,0,0,36,90.7,41.6)" />
+<use xlink:href="#f0_8" transform="matrix(36,0,0,36,138.3,41.6)" />
+<use xlink:href="#f0_5" transform="matrix(36,0,0,36,164.6,41.6)" />
+<use xlink:href="#f0_7" transform="matrix(36,0,0,36,213,41.6)" />
+<use xlink:href="#f0_8" transform="matrix(36,0,0,36,262.2,41.6)" />
+</g>
+</g>
+<text x="1" y="41" class="s1">B A D I C H I</text>
+
+</g>
+<defs>
+<path d="M374,107c66,0,130,5,179,43c40,29,67,79,67,140c0,81,-47,129,-87,150c-38,21,-91,31,-172,31H244V107ZM330,571c60,0,200,13,200,170C530,909,365,912,333,912H244V571ZM131,0V1019H315c56,0,159,-5,233,-64c33,-25,92,-87,92,-211C640,694,629,605,539,544C681,509,733,385,733,287C733,189,684,110,629,67C548,3,455,0,385,0Z"
+id="f0_4"
+transform="scale(0.001,-0.001)"/>
+
+<path d="M649,394L478,802L304,394ZM12,0L481,1068L938,0H813L694,287H260L138,0Z"
+id="f0_3"
+transform="scale(0.001,-0.001)"/>
+
+<path d="M344,107c81,0,192,9,292,92c76,64,137,165,137,310C773,753,602,912,344,912H244V107ZM131,0V1019H339c103,0,248,-11,376,-119C808,822,889,692,889,509C889,295,784,180,710,118C617,38,519,0,338,0Z"
+id="f0_6"
+transform="scale(0.001,-0.001)"/>
+
+<path d="M131,0V1019H244V0Z"
+id="f0_8"
+transform="scale(0.001,-0.001)"/>
+
+<path d="M603,-17C301,-17,76,211,76,506c0,304,228,530,534,530c61,0,178,-8,301,-101V794c-33,33,-81,71,-133,95c-54,25,-116,40,-176,40C367,929,193,739,193,504C193,228,417,89,603,89c69,0,136,19,190,47c58,29,99,67,118,86V81C798,0,680,-17,603,-17Z"
+id="f0_5"
+transform="scale(0.001,-0.001)"/>
+
+<path d="M131,0V1019H244V605H767v414H880V0H767V498H244V0Z"
+id="f0_7"
+transform="scale(0.001,-0.001)"/>
+
+
+</defs>
+
+<!-- Any embedded fonts defined here -->
+<style type="text/css" ><![CDATA[
+
+@font-face {
+	font-family: FuturaPT-Book_5;
+	src: url("fonts/FuturaPT-Book_5.woff") format("woff");
+}
+
+]]></style>
+
+</svg>

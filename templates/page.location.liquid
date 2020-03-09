@@ -1,0 +1,60 @@
+<div class="location-page-wrapper pb-5">
+  <div class="d-flex flex-column align-items-center justify-content-center col-12 mx-auto px-0">
+
+    <div class="image-location-holder">
+    	<img class="w-100" src="{{ 'location-bg.png' | asset_url }}">
+    </div>
+     <div class="location-info col-lg-6 col-12 mx-auto">
+      <ul class="Linklist Block--links text-center pt-5">
+
+       <li class="mb-5">
+          <h7 class="Heading">
+            <strong>ADDRESS</strong>
+          </h7>
+           <br>
+          <p>
+            367 West Broadway,<br>New York, NY 10013<br> PHONE <a href="tel:212-533-2107" class=""><span class="mb-5">212-533-2107</span></a>
+          </p>
+        </li> 
+        <li class="mb-5">
+          <h7 class="Heading">
+             <strong>Transit</strong>
+          </h7>
+          <br>
+          <p>
+          	A C E, N Q R, 1, 6
+          </p>
+        </li>
+         <li class="mb-5">
+            <h7 class="Heading">
+               <strong>HOURS of OPERATION</strong>
+            </h7>
+             <br>
+            <p>
+              Open daily 11am - 7pm
+            </p>
+        </li>
+        <li>
+          <h7 class="Heading">
+             <strong>Parking</strong>
+          </h7>
+          <br>
+          <p>
+            Vine Parking <br> Parking Garage <br> 360 W Broadway
+          </p>
+        </li>
+
+      </ul>
+    </div>
+    <div class="map pt-5 col-lg-6 col-12">
+        <div id="badichi_map">
+          {{ page.content }}
+        </div>
+    </div>
+
+  </div>
+</div>
+
+
+        
+        
