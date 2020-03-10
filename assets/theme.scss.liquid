@@ -5189,7 +5189,7 @@ select::-ms-expand {
   .Popover--positionLeft.Popover--alignCenter::before {
     top: calc(50% - 10px);
      content: none !important;
-    	
+
   }
 
   .Popover--positionLeft.Popover--alignBottom::before {
@@ -10921,7 +10921,7 @@ $vertical-spacing-two-products-per-row  : 0px;
 }
 
 .Slideshow__Content--middleLeft {
-  left: 20%; 
+  left: 20%;
 }
 .Slideshow__Content--middleLeft,
 .Slideshow__Content--bottomLeft {
@@ -11392,5 +11392,105 @@ $vertical-spacing-two-products-per-row  : 0px;
 @include av-mq('desk') {
   .Timeline__Nav {
     margin-top: 65px;
+  }
+}
+
+.product-form__item--size-wrapper {
+  flex: 0 0 38%!important;
+}
+
+.product-form__item--measure-wrapper {
+  flex: 0 0 62%!important;
+  max-width: 62%!important;
+}
+
+.product-form__item--measure-wrapper > select {
+  background-position-x: 94%;
+  padding: 10px 28px 10px 10px;
+}
+
+.product-form__item--measure-wrapper > button {
+  margin-left: 0.5rem!important;
+}
+
+.RoundButton-ex-small {
+  width: 20px;
+  height: 20px;
+}
+
+.RoundButton-ex-small svg {
+  height: 8px;
+  width: 8px;
+}
+
+#tooltip-content-wrapper {
+  padding: 1.5rem;
+  padding-top: 0.5rem;
+}
+
+.modal--size-chart table {
+  border-collapse: collapse!important;
+}
+
+#tooltip-content-wrapper p {
+  margin-top: 15px;
+}
+
+#tooltip-content-wrapper button {
+  background: black;
+  color: white;
+}
+
+.modal--size-chart h1:first-child {
+  margin-top: 0px;
+  text-align: center;
+  margin-bottom: 6rem!important;
+}
+
+.modal--size-chart p {
+  margin-bottom: 3rem!important;
+}
+
+.modal--size-chart table thead td {
+  padding: 27px 10px!important;
+  border: 1px solid #cfcfcf;
+}
+
+.modal--size-chart table tbody td {
+  padding: 18px 10px!important;
+  border: 1px solid #cfcfcf;
+}
+
+@include av-mq('phone') {
+  .product-form__item--measure-wrapper {
+    flex: 0 0 100%!important;
+    max-width: 100%!important;
+    margin-top: 10px;
+  }
+
+  .product-form__item--measure-wrapper > select {
+    background-position-x: 90%;
+    padding: 10px 28px 10px 14px;
+  }
+
+  .product-form__item--measure-wrapper > button {
+    margin-right: 0.5rem!important;
+  }
+}
+
+@include av-mq('tablet') {
+  .product-form__item--measure-wrapper {
+    flex: 0 0 100%!important;
+    max-width: 100%!important;
+    margin-top: 10px;
+  }
+
+  .product-form__item--measure-wrapper > select {
+    background-position-x: 90%;
+    padding: 10px 28px 10px 14px;
+  }
+
+  .product-form__item--measure-wrapper > button {
+    margin-right: 0.5rem!important;
   }
 }
